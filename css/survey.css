@@ -1,28 +1,67 @@
 /* Survey page styles */
 
-.photo{
-  width: 60%;
-  padding: 10px;
+.photo {
+    width: 60%;
+    padding: 10px;
 }
 
 form {
-  margin: 0 auto;
-  text-align: left;
-  display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
 }
 
-.container{
-  text-align: center;
-}
-.newsletter{
-  text-align: right;
-
+.container {
+    text-align: center;
 }
 
+.newsletter {
+    text-align: right;
+    margin-top: 32px;
+}
+
+.focus:focus {
+    border: 3px solid orange;
+    background-color: #fff;
+}
+
+.radio-input {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.newsletter-input {
+    margin-top: 16px;
+}
+
+.newsletter-input-container {
+    margin-bottom: 16px;
+}
+
+fieldset {
+    border: transparent;
+}
+
+.sign-up-button {
+    margin-right: 12px;
+}
+
+legend {
+    display: none;
+}
+
+#onSubmit,
+#song-describe,
+#name-describe,
+#email-describe,
+#retype-describe {
+    display: none;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
-  .photo{
-    width: 40%;
-  }
+    .photo {
+        width: 40%;
+    }
 }
